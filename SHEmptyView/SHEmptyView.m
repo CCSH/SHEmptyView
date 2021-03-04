@@ -30,6 +30,11 @@
     
     //设置图片
     switch (self.type) {
+        case SHEmptyViewType_default:
+        {
+            _imgView.image = [self getImageWithName:@"empty-image-error"];
+        }
+            break;
         case SHEmptyViewType_error:
         {
             _imgView.image = [self getImageWithName:@"empty-image-error"];
@@ -41,11 +46,8 @@
         }
             break;
         case SHEmptyViewType_custom:
-            break;;
+            break;
         default:
-        {
-            _imgView.image = [self getImageWithName:@"empty-image-default"];
-        }
             break;
     }
 }
@@ -56,6 +58,7 @@
         _imgView = [[UIImageView alloc]init];
         _imgView.contentMode = UIViewContentModeScaleAspectFit;
         _imgView.frame = CGRectMake(0, 10, 160, 160);
+        _imgView.image = [self getImageWithName:@"empty-image-default"];
         [self addSubview:_imgView];
     }
     return _imgView;
