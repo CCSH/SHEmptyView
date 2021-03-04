@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1EA38346168371819AD0970B /* libPods-SHEmptyViewExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0299419532A21C4157C78BFD /* libPods-SHEmptyViewExample.a */; };
+		8364965F25F092B100312A68 /* SHEmptyView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8364965D25F092B100312A68 /* SHEmptyView.bundle */; };
+		8364966025F092B100312A68 /* SHEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8364965E25F092B100312A68 /* SHEmptyView.m */; };
 		839D3F0A251AD0D500069943 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D3F09251AD0D500069943 /* AppDelegate.m */; };
 		839D3F0D251AD0D500069943 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D3F0C251AD0D500069943 /* SceneDelegate.m */; };
 		839D3F10251AD0D500069943 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D3F0F251AD0D500069943 /* ViewController.m */; };
@@ -17,8 +19,6 @@
 		839D3F1B251AD0D700069943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D3F1A251AD0D700069943 /* main.m */; };
 		839D3F25251AD0D700069943 /* SHEmptyViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D3F24251AD0D700069943 /* SHEmptyViewExampleTests.m */; };
 		839D3F30251AD0D700069943 /* SHEmptyViewExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D3F2F251AD0D700069943 /* SHEmptyViewExampleUITests.m */; };
-		839D3F43251AD11B00069943 /* SHEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D3F42251AD11B00069943 /* SHEmptyView.m */; };
-		839D3F48251AD30200069943 /* SHEmptyView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 839D3F47251AD30200069943 /* SHEmptyView.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		0299419532A21C4157C78BFD /* libPods-SHEmptyViewExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHEmptyViewExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8364965C25F092B100312A68 /* SHEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHEmptyView.h; sourceTree = "<group>"; };
+		8364965D25F092B100312A68 /* SHEmptyView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SHEmptyView.bundle; sourceTree = "<group>"; };
+		8364965E25F092B100312A68 /* SHEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHEmptyView.m; sourceTree = "<group>"; };
 		839D3F05251AD0D500069943 /* SHEmptyViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHEmptyViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		839D3F08251AD0D500069943 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		839D3F09251AD0D500069943 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,9 +61,6 @@
 		839D3F2B251AD0D700069943 /* SHEmptyViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHEmptyViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		839D3F2F251AD0D700069943 /* SHEmptyViewExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHEmptyViewExampleUITests.m; sourceTree = "<group>"; };
 		839D3F31251AD0D700069943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		839D3F41251AD11B00069943 /* SHEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHEmptyView.h; sourceTree = "<group>"; };
-		839D3F42251AD11B00069943 /* SHEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHEmptyView.m; sourceTree = "<group>"; };
-		839D3F47251AD30200069943 /* SHEmptyView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SHEmptyView.bundle; sourceTree = "<group>"; };
 		FA2EACF3E030F68BCAE5A6B8 /* Pods-SHEmptyViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHEmptyViewExample.release.xcconfig"; path = "Target Support Files/Pods-SHEmptyViewExample/Pods-SHEmptyViewExample.release.xcconfig"; sourceTree = "<group>"; };
 		FCE32FCFEB7C721C6ED46917 /* Pods-SHEmptyViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHEmptyViewExample.debug.xcconfig"; path = "Target Support Files/Pods-SHEmptyViewExample/Pods-SHEmptyViewExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +91,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8364965B25F092B100312A68 /* SHEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				8364965C25F092B100312A68 /* SHEmptyView.h */,
+				8364965E25F092B100312A68 /* SHEmptyView.m */,
+				8364965D25F092B100312A68 /* SHEmptyView.bundle */,
+			);
+			name = SHEmptyView;
+			path = ../../SHEmptyView;
+			sourceTree = "<group>";
+		};
 		839D3EFC251AD0D500069943 = {
 			isa = PBXGroup;
 			children = (
@@ -116,7 +127,7 @@
 		839D3F07251AD0D500069943 /* SHEmptyViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				839D3F40251AD0F300069943 /* SHEmptyView */,
+				8364965B25F092B100312A68 /* SHEmptyView */,
 				839D3F08251AD0D500069943 /* AppDelegate.h */,
 				839D3F09251AD0D500069943 /* AppDelegate.m */,
 				839D3F0B251AD0D500069943 /* SceneDelegate.h */,
@@ -150,16 +161,6 @@
 			path = SHEmptyViewExampleUITests;
 			sourceTree = "<group>";
 		};
-		839D3F40251AD0F300069943 /* SHEmptyView */ = {
-			isa = PBXGroup;
-			children = (
-				839D3F41251AD11B00069943 /* SHEmptyView.h */,
-				839D3F42251AD11B00069943 /* SHEmptyView.m */,
-				839D3F47251AD30200069943 /* SHEmptyView.bundle */,
-			);
-			path = SHEmptyView;
-			sourceTree = "<group>";
-		};
 		8C04B017610E278A9FF85F11 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,7 +175,6 @@
 				FCE32FCFEB7C721C6ED46917 /* Pods-SHEmptyViewExample.debug.xcconfig */,
 				FA2EACF3E030F68BCAE5A6B8 /* Pods-SHEmptyViewExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -284,7 +284,7 @@
 				839D3F18251AD0D700069943 /* LaunchScreen.storyboard in Resources */,
 				839D3F15251AD0D700069943 /* Assets.xcassets in Resources */,
 				839D3F13251AD0D500069943 /* Main.storyboard in Resources */,
-				839D3F48251AD30200069943 /* SHEmptyView.bundle in Resources */,
+				8364965F25F092B100312A68 /* SHEmptyView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +336,7 @@
 			files = (
 				839D3F10251AD0D500069943 /* ViewController.m in Sources */,
 				839D3F0A251AD0D500069943 /* AppDelegate.m in Sources */,
-				839D3F43251AD11B00069943 /* SHEmptyView.m in Sources */,
+				8364966025F092B100312A68 /* SHEmptyView.m in Sources */,
 				839D3F1B251AD0D700069943 /* main.m in Sources */,
 				839D3F0D251AD0D500069943 /* SceneDelegate.m in Sources */,
 			);
@@ -518,6 +518,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.csh.SHEmptyViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -537,6 +538,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.csh.SHEmptyViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
