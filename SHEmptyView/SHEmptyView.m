@@ -7,13 +7,6 @@
 
 #import "SHEmptyView.h"
 
-
-@interface SHEmptyView ()
-
-
-
-@end
-
 @implementation SHEmptyView
 
 - (void)reloadView{
@@ -32,7 +25,7 @@
     switch (self.type) {
         case SHEmptyViewType_default:
         {
-            _imgView.image = [self getImageWithName:@"empty-image-error"];
+            _imgView.image = [self getImageWithName:@"empty-image-default"];
         }
             break;
         case SHEmptyViewType_error:

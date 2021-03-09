@@ -1,6 +1,6 @@
 Pod::Spec.new do | s |
     s.name = "SHEmptyView"
-    s.version = "1.0.0"
+    s.version = "1.0.1"
     s.summary = "空状态页面"
     s.homepage = "https://github.com/CCSH/#{s.name}"
     s.license = "MIT"

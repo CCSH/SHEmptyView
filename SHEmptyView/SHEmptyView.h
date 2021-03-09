@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UILabel *labView;
 //按钮
 @property (nonatomic, strong) UIButton *btnView;
-
+//图片类型
 @property (nonatomic, assign) SHEmptyViewType type;
 
 - (void)reloadView;
