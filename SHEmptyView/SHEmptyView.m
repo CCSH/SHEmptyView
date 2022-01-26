@@ -6,6 +6,7 @@
 //
 
 #import "SHEmptyView.h"
+#import "UIView+SHExtension.h"
 
 @implementation SHEmptyView
 

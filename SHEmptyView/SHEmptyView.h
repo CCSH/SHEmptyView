@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <UIView+SHExtension.h>
 
 //类型
 typedef enum : NSUInteger {
